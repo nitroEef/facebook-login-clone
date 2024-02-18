@@ -1,0 +1,130 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Cormorant+SC:wght@300;400;500&family=Inter:wght@500&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@500&family=Poppins:ital,wght@0,600;1,200&family=Roboto+Mono&display=swap');
+
+:root {
+    --main-bg-white: #f0f2f5;
+    --background-two:#d1d1d1; 
+    --framerr-bg:  #2f41ff;
+    --text-color:white;}
+
+body{
+    background-color:var(--main-bg-white)}
+
+.plate{
+    width:522px;
+    height:455px;
+    background-color: white;
+    border:1px solid white;
+    border-radius:11px;
+    box-shadow: 1px 1px 3px 3px rgb(217, 208, 208);}
+
+section{
+   float: right; 
+    top:-11rem;
+    position: relative;
+    right:6rem}
+
+.plate form ::placeholder{
+    font-size: 21px;
+    padding:1rem;
+    opacity:75%}
+
+form input{
+    width:30rem;
+    height:3.6rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    outline: none;
+    margin-bottom: -3rem;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius:7px;
+    border: 1px solid rgba(152, 142, 142, 0.5)}
+
+.boot{
+    margin:3rem;
+    position: absolute;}
+
+
+.buttlog{
+    width:30rem;
+    height:3.6rem;
+    position:absolute;
+    left:-1.8rem;
+    outline: none;
+    border-radius:7px;
+    border:0.4px solid;
+    background-color: var(--framerr-bg);
+    color: var(--text-color);
+    font-size: 21px;
+    font-weight: 600; }
+
+hr{
+    width:29.3rem;
+    margin:6rem -1rem;
+    right:4.5rem;
+    opacity: 42%;}
+
+.plate form .boot  a {
+    text-decoration: none;
+    font-size: 20px;
+    position:relative;
+    top:4rem;
+    left:8rem;
+    color:blue;}
+
+.plate form .boot a:hover{
+    text-decoration: underline;}
+
+.acc{
+    width:15rem;
+    height:3.6rem;
+    border-radius: 3px;
+    font-size: 22px;
+    position: absolute;
+    top:11rem;
+    left:6rem;
+    color: var(--text-color);
+    background-color: rgb(12, 174, 12);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;}
+
+
+main{
+    position: relative;
+    top:12rem;
+    margin-left: 11rem;}
+
+    
+h2{
+    font-family: "roboto";
+    font-size:76px;
+    color:var(--framerr-bg)}
+
+p{
+    position:relative;
+    bottom:3rem;
+    font-size: 38px;
+    font-weight: 500;}
+
+h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight:500;}
+
+h4 a{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;}
+
+h4 a:hover{
+    text-decoration: underline;
+    color:black;}
+
+.fa-solid{
+    font-size: 24px;
+    float:right;
+    position:relative;
+    right:2rem;
+    bottom:1rem;}
