@@ -9,7 +9,10 @@
     --text-color:white;}
 
 body{
-    background-color:var(--main-bg-white)}
+    background-color:var(--main-bg-white);
+    display:flex;
+    justify-content: space-around;
+    margin:7% auto}
 
 .plate{
     width:522px;
@@ -19,11 +22,11 @@ body{
     border-radius:11px;
     box-shadow: 1px 1px 3px 3px rgb(217, 208, 208);}
 
-section{
+/* section{
    float: right; 
     top:-11rem;
     position: relative;
-    right:6rem}
+    right:6rem} */
 
 .plate form ::placeholder{
     font-size: 21px;
@@ -91,10 +94,10 @@ hr{
     border-radius: 5px;}
 
 
-main{
+/* main{
     position: relative;
     top:12rem;
-    margin-left: 11rem;}
+    margin-left: 11rem;} */
 
     
 h2{
@@ -128,3 +131,6 @@ h4 a:hover{
     position:relative;
     right:2rem;
     bottom:1rem;}
+
+    @media screen and{max-width
+    }
